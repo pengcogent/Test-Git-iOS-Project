@@ -21,6 +21,7 @@
 		043E26E419BE50C800D495B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043E26C619BE50C700D495B4 /* UIKit.framework */; };
 		043E26EC19BE50C800D495B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043E26EA19BE50C800D495B4 /* InfoPlist.strings */; };
 		043E26EE19BE50C800D495B4 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E26ED19BE50C800D495B4 /* Git_TestTests.m */; };
+		043E26F919BE52D300D495B4 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E26F819BE52D300D495B4 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		043E26E919BE50C800D495B4 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		043E26EB19BE50C800D495B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		043E26ED19BE50C800D495B4 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		043E26F719BE52D300D495B4 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		043E26F819BE52D300D495B4 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		043E26B619BE50C700D495B4 = {
 			isa = PBXGroup;
 			children = (
+				043E26F719BE52D300D495B4 /* CCTest.h */,
+				043E26F819BE52D300D495B4 /* CCTest.m */,
 				043E26C819BE50C700D495B4 /* Git Test */,
 				043E26E719BE50C800D495B4 /* Git TestTests */,
 				043E26C119BE50C700D495B4 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043E26D319BE50C700D495B4 /* CCAppDelegate.m in Sources */,
+				043E26F919BE52D300D495B4 /* CCTest.m in Sources */,
 				043E26CF19BE50C700D495B4 /* main.m in Sources */,
 				043E26D919BE50C700D495B4 /* CCViewController.m in Sources */,
 			);
@@ -457,6 +463,7 @@
 				043E26F319BE50C800D495B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		043E26F419BE50C800D495B4 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				043E26F619BE50C800D495B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
